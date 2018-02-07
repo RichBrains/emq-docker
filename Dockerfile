@@ -1,8 +1,7 @@
 FROM alpine:3.5
 
-MAINTAINER Huang Rui <vowstar@gmail.com>, Turtle <turtled@emqtt.io>
 
-ENV EMQ_VERSION=v2.3.2
+ENV EMQ_VERSION=v2.3.4
 
 COPY ./start.sh /start.sh
 
