@@ -1,7 +1,7 @@
 FROM alpine:3.5
 
 
-ENV EMQ_VERSION=v2.3.4
+ENV EMQ_VERSION=v2.3.5
 
 COPY ./start.sh /start.sh
 
